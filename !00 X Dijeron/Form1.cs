@@ -24,6 +24,7 @@ namespace _00_X_Dijeron
             InitializeComponent();
             textBoxes = new TextBox[] { txtBox1, txtBox2, txtBox3, txtBox4, txtBox5 };
             scoreBoxes = new TextBox[] { txtBoxScore1, txtBoxScore2, txtBoxScore3, txtBoxScore4, txtBoxScore5 };
+            btnX.Visible = false;
             GetQuestions();
             LoadQuestions();
         }
@@ -108,6 +109,16 @@ namespace _00_X_Dijeron
             }
             currentQuestion++;
             LoadQuestions();
+        }
+
+        private void btnX_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            btnX.Visible =! btnX.Visible;
         }
     }
 }

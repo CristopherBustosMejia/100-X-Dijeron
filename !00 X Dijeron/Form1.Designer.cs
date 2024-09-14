@@ -52,13 +52,17 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rbtnNone = new System.Windows.Forms.RadioButton();
             this.button6 = new System.Windows.Forms.Button();
+            this.btnX = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Black;
             this.groupBox1.Controls.Add(this.txtBoxScore5);
+            this.groupBox1.Controls.Add(this.btnX);
             this.groupBox1.Controls.Add(this.txtBoxScore4);
             this.groupBox1.Controls.Add(this.txtBoxScore3);
             this.groupBox1.Controls.Add(this.txtBoxScore2);
@@ -69,6 +73,7 @@
             this.groupBox1.Controls.Add(this.txtBox2);
             this.groupBox1.Controls.Add(this.lblQuestion);
             this.groupBox1.Controls.Add(this.txtBox1);
+            this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox1.Location = new System.Drawing.Point(219, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(343, 295);
@@ -78,6 +83,10 @@
             // 
             // txtBoxScore5
             // 
+            this.txtBoxScore5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtBoxScore5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBoxScore5.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxScore5.ForeColor = System.Drawing.Color.Gold;
             this.txtBoxScore5.Location = new System.Drawing.Point(219, 254);
             this.txtBoxScore5.Name = "txtBoxScore5";
             this.txtBoxScore5.ReadOnly = true;
@@ -86,6 +95,10 @@
             // 
             // txtBoxScore4
             // 
+            this.txtBoxScore4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtBoxScore4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBoxScore4.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxScore4.ForeColor = System.Drawing.Color.Gold;
             this.txtBoxScore4.Location = new System.Drawing.Point(219, 214);
             this.txtBoxScore4.Name = "txtBoxScore4";
             this.txtBoxScore4.ReadOnly = true;
@@ -94,6 +107,10 @@
             // 
             // txtBoxScore3
             // 
+            this.txtBoxScore3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtBoxScore3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBoxScore3.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxScore3.ForeColor = System.Drawing.Color.Gold;
             this.txtBoxScore3.Location = new System.Drawing.Point(219, 168);
             this.txtBoxScore3.Name = "txtBoxScore3";
             this.txtBoxScore3.ReadOnly = true;
@@ -102,6 +119,10 @@
             // 
             // txtBoxScore2
             // 
+            this.txtBoxScore2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtBoxScore2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBoxScore2.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxScore2.ForeColor = System.Drawing.Color.Gold;
             this.txtBoxScore2.Location = new System.Drawing.Point(219, 130);
             this.txtBoxScore2.Name = "txtBoxScore2";
             this.txtBoxScore2.ReadOnly = true;
@@ -110,6 +131,10 @@
             // 
             // txtBoxScore1
             // 
+            this.txtBoxScore1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtBoxScore1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBoxScore1.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxScore1.ForeColor = System.Drawing.Color.Gold;
             this.txtBoxScore1.Location = new System.Drawing.Point(219, 93);
             this.txtBoxScore1.Name = "txtBoxScore1";
             this.txtBoxScore1.ReadOnly = true;
@@ -118,6 +143,10 @@
             // 
             // txtBox5
             // 
+            this.txtBox5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBox5.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBox5.ForeColor = System.Drawing.Color.Gold;
             this.txtBox5.Location = new System.Drawing.Point(20, 254);
             this.txtBox5.Name = "txtBox5";
             this.txtBox5.ReadOnly = true;
@@ -126,6 +155,10 @@
             // 
             // txtBox4
             // 
+            this.txtBox4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBox4.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBox4.ForeColor = System.Drawing.Color.Gold;
             this.txtBox4.Location = new System.Drawing.Point(20, 214);
             this.txtBox4.Name = "txtBox4";
             this.txtBox4.ReadOnly = true;
@@ -134,6 +167,10 @@
             // 
             // txtBox3
             // 
+            this.txtBox3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBox3.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBox3.ForeColor = System.Drawing.Color.Gold;
             this.txtBox3.Location = new System.Drawing.Point(20, 168);
             this.txtBox3.Name = "txtBox3";
             this.txtBox3.ReadOnly = true;
@@ -142,6 +179,10 @@
             // 
             // txtBox2
             // 
+            this.txtBox2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBox2.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBox2.ForeColor = System.Drawing.Color.Gold;
             this.txtBox2.Location = new System.Drawing.Point(20, 130);
             this.txtBox2.Name = "txtBox2";
             this.txtBox2.ReadOnly = true;
@@ -150,6 +191,8 @@
             // 
             // lblQuestion
             // 
+            this.lblQuestion.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuestion.ForeColor = System.Drawing.Color.Gold;
             this.lblQuestion.Location = new System.Drawing.Point(17, 33);
             this.lblQuestion.Name = "lblQuestion";
             this.lblQuestion.Size = new System.Drawing.Size(302, 39);
@@ -159,6 +202,10 @@
             // 
             // txtBox1
             // 
+            this.txtBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBox1.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBox1.ForeColor = System.Drawing.Color.Gold;
             this.txtBox1.Location = new System.Drawing.Point(20, 93);
             this.txtBox1.Name = "txtBox1";
             this.txtBox1.ReadOnly = true;
@@ -167,22 +214,28 @@
             // 
             // txtBoxScoreTeam1
             // 
-            this.txtBoxScoreTeam1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxScoreTeam1.BackColor = System.Drawing.Color.Black;
+            this.txtBoxScoreTeam1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBoxScoreTeam1.Font = new System.Drawing.Font("Consolas", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxScoreTeam1.ForeColor = System.Drawing.Color.Gold;
             this.txtBoxScoreTeam1.Location = new System.Drawing.Point(52, 35);
             this.txtBoxScoreTeam1.Name = "txtBoxScoreTeam1";
             this.txtBoxScoreTeam1.ReadOnly = true;
-            this.txtBoxScoreTeam1.Size = new System.Drawing.Size(100, 45);
+            this.txtBoxScoreTeam1.Size = new System.Drawing.Size(100, 46);
             this.txtBoxScoreTeam1.TabIndex = 1;
             this.txtBoxScoreTeam1.Text = "0";
             this.txtBoxScoreTeam1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtBoxScoreTeam2
             // 
-            this.txtBoxScoreTeam2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxScoreTeam2.BackColor = System.Drawing.Color.Black;
+            this.txtBoxScoreTeam2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBoxScoreTeam2.Font = new System.Drawing.Font("Consolas", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxScoreTeam2.ForeColor = System.Drawing.Color.Gold;
             this.txtBoxScoreTeam2.Location = new System.Drawing.Point(648, 35);
             this.txtBoxScoreTeam2.Name = "txtBoxScoreTeam2";
             this.txtBoxScoreTeam2.ReadOnly = true;
-            this.txtBoxScoreTeam2.Size = new System.Drawing.Size(100, 45);
+            this.txtBoxScoreTeam2.Size = new System.Drawing.Size(100, 46);
             this.txtBoxScoreTeam2.TabIndex = 2;
             this.txtBoxScoreTeam2.Text = "0";
             this.txtBoxScoreTeam2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -200,6 +253,7 @@
             // rbtnTeam2
             // 
             this.rbtnTeam2.AutoSize = true;
+            this.rbtnTeam2.ForeColor = System.Drawing.SystemColors.Control;
             this.rbtnTeam2.Location = new System.Drawing.Point(692, 113);
             this.rbtnTeam2.Name = "rbtnTeam2";
             this.rbtnTeam2.Size = new System.Drawing.Size(14, 13);
@@ -209,6 +263,9 @@
             // 
             // button1
             // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Gold;
             this.button1.Location = new System.Drawing.Point(32, 28);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -219,6 +276,9 @@
             // 
             // button2
             // 
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Gold;
             this.button2.Location = new System.Drawing.Point(231, 28);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
@@ -229,6 +289,9 @@
             // 
             // button3
             // 
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Gold;
             this.button3.Location = new System.Drawing.Point(32, 57);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
@@ -239,6 +302,9 @@
             // 
             // button4
             // 
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button4.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.Gold;
             this.button4.Location = new System.Drawing.Point(231, 57);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
@@ -249,6 +315,9 @@
             // 
             // button5
             // 
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button5.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.Gold;
             this.button5.Location = new System.Drawing.Point(132, 40);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
@@ -283,19 +352,50 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(692, 420);
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button6.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.Gold;
+            this.button6.Location = new System.Drawing.Point(712, 403);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.Size = new System.Drawing.Size(56, 35);
             this.button6.TabIndex = 12;
             this.button6.Text = "->";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.NextQuestion);
             // 
+            // btnX
+            // 
+            this.btnX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnX.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnX.ForeColor = System.Drawing.Color.Red;
+            this.btnX.Location = new System.Drawing.Point(132, 168);
+            this.btnX.Name = "btnX";
+            this.btnX.Size = new System.Drawing.Size(75, 51);
+            this.btnX.TabIndex = 13;
+            this.btnX.Text = "X";
+            this.btnX.UseVisualStyleBackColor = true;
+            this.btnX.Click += new System.EventHandler(this.btnX_Click);
+            // 
+            // button7
+            // 
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button7.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.Red;
+            this.button7.Location = new System.Drawing.Point(52, 388);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(56, 35);
+            this.button7.TabIndex = 14;
+            this.button7.Text = "x";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.rbtnNone);
             this.Controls.Add(this.groupBox2);
@@ -304,8 +404,9 @@
             this.Controls.Add(this.txtBoxScoreTeam2);
             this.Controls.Add(this.txtBoxScoreTeam1);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "100 cristianos dijeron";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -340,6 +441,8 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.RadioButton rbtnNone;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnX;
+        private System.Windows.Forms.Button button7;
     }
 }
 
